@@ -1,0 +1,7 @@
+.panel {
+  border-right: solid 1px black;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=MarkdownPreviewer.css.map */
