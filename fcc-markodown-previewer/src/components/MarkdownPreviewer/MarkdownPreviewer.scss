@@ -1,5 +1,63 @@
-.panel {
-    border-right: solid 1px black;
+@import '../../variables.scss';
+
+.content {
     height: 100vh;
+    margin: 0;
+}
+
+.panel {
     box-sizing: border-box;
+    padding: 0;
+}
+
+.editor {
+    &__title {
+        text-align: center;
+
+        padding: 20px 0;
+
+        &-dark {
+            color: $pink;
+            background-color: $black;
+        }
+    }
+
+    &__textarea {
+        height: 80vh;
+        width: 100%;
+        border: none;
+        resize: none;
+        padding-left: 15px;
+        &-dark {
+            background-color: $black;
+            color: $green;
+        }
+    }
+}
+
+.preview {
+    &__title {
+        text-align: center;
+
+        padding: 20px 0;
+
+        &-dark {
+            color: $pink;
+            background-color: $black;
+        }
+    }
+
+    &__text {
+        height: 80vh;
+        width: 100%;
+        padding-left: 15px;
+        &-dark {
+            background-color: $black;
+            color: $green;
+        }
+        &-light {
+            background-color: $white;
+            color: black;
+        }
+    }
 }

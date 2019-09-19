@@ -1,7 +1,60 @@
-.panel {
-  border-right: solid 1px black;
+.content {
   height: 100vh;
+  margin: 0;
+}
+
+.panel {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding: 0;
+}
+
+.editor__title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.editor__title-dark {
+  color: #f92672;
+  background-color: #272822;
+}
+
+.editor__textarea {
+  height: 80vh;
+  width: 100%;
+  border: none;
+  resize: none;
+  padding-left: 15px;
+}
+
+.editor__textarea-dark {
+  background-color: #272822;
+  color: #a6e22e;
+}
+
+.preview__title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.preview__title-dark {
+  color: #f92672;
+  background-color: #272822;
+}
+
+.preview__text {
+  height: 80vh;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.preview__text-dark {
+  background-color: #272822;
+  color: #a6e22e;
+}
+
+.preview__text-light {
+  background-color: #f8f8f2;
+  color: black;
 }
 /*# sourceMappingURL=MarkdownPreviewer.css.map */
